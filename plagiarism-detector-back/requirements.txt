@@ -1,0 +1,8 @@
+flask
+torch
+torchvision
+numpy
+pillow
+PyPDF2
+python-docx
+PyMuPDF

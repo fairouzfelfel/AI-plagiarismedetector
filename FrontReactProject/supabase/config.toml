@@ -1,0 +1,2 @@
+[functions.reformulate]
+verify_jwt = false
