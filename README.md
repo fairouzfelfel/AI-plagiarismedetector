@@ -26,20 +26,8 @@ It uses **Natural Language Processing (NLP)** and **Generative AI** to detect te
 - Sentence Embeddings → Semantic similarity detection  
 
 ---
-plagiarism-detector/
-│
-├── app.py                           # Flask backend
-├── utils/
-│   ├── extract.py                   # Extract text & images from files
-│   ├── preprocess.py                # Text cleaning & sentence splitting
-│   ├── vectorize.py                 # Sentence embeddings
-│   ├── compare.py                   # Text and image similarity computation
-│   ├── reformulate.py               # Pegasus-based reformulation
-│   └── ai_summary.py                # FalconsAI summarization pipeline
-│
-├── uploads/                         # Uploaded test files
-├── reference_docs/                  # Reference documents for comparison
-└── frontend/                        # React app for UI
+
+
 
 
 
