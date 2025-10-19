@@ -1,4 +1,4 @@
-# 🧠 AI-Powered Plagiarism Detection Web App
+# 🧠PlagiaSense AI-Powered Plagiarism Detection 
 
 This project is an **AI-based plagiarism detection system** built with **Flask (Python)** and **React (JavaScript)**.  
 It uses **Natural Language Processing (NLP)** and **Generative AI** to detect text similarities, reformulate sentences, and generate intelligent summaries.
@@ -26,5 +26,20 @@ It uses **Natural Language Processing (NLP)** and **Generative AI** to detect te
 - Sentence Embeddings → Semantic similarity detection  
 
 ---
-## 🧩 Project Structure
+plagiarism-detector/
+│
+├── app.py                           # Flask backend
+├── utils/
+│   ├── extract.py                   # Extract text & images from files
+│   ├── preprocess.py                # Text cleaning & sentence splitting
+│   ├── vectorize.py                 # Sentence embeddings
+│   ├── compare.py                   # Text and image similarity computation
+│   ├── reformulate.py               # Pegasus-based reformulation
+│   └── ai_summary.py                # FalconsAI summarization pipeline
+│
+├── uploads/                         # Uploaded test files
+├── reference_docs/                  # Reference documents for comparison
+└── frontend/                        # React app for UI
+
+
 
